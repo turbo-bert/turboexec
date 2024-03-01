@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 562
-  Height = 240
-  Top = 333
-  Width = 320
+  Left = 146
+  Height = 488
+  Top = 385
+  Width = 826
   Caption = 'Form1'
   Menu = MainMenu1
   LCLVersion = '3.0.0.3'
@@ -14,6 +14,18 @@ object Form1: TForm1
       object menu_quit: TMenuItem
         Caption = 'Quit'
         OnClick = menu_quitClick
+      end
+    end
+    object menu_info: TMenuItem
+      Caption = 'Info'
+      object menu_help: TMenuItem
+        Caption = 'Help (Online)'
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object menu_about: TMenuItem
+        Caption = 'About'
       end
     end
   end

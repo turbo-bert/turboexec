@@ -5,10 +5,17 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus;
 
 type
+
+  { TForm1 }
+
   TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    menu_quit: TMenuItem;
+    menu_start: TMenuItem;
+    procedure menu_quitClick(Sender: TObject);
   private
 
   public
@@ -21,6 +28,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TForm1 }
+
+procedure TForm1.menu_quitClick(Sender: TObject);
+begin
+  Application.Terminate;
+end;
 
 end.
 
