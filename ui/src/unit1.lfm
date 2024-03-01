@@ -4,5 +4,17 @@ object Form1: TForm1
   Top = 333
   Width = 320
   Caption = 'Form1'
+  Menu = MainMenu1
   LCLVersion = '3.0.0.3'
+  object MainMenu1: TMainMenu
+    Left = 32
+    Top = 24
+    object menu_start: TMenuItem
+      Caption = 'Start'
+      object menu_quit: TMenuItem
+        Caption = 'Quit'
+        OnClick = menu_quitClick
+      end
+    end
+  end
 end
