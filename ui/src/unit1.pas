@@ -12,7 +12,7 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
-    MainMenu1: TMainMenu;
+    main_menu: TMainMenu;
     menu_help: TMenuItem;
     menu_about: TMenuItem;
     menu_info: TMenuItem;

@@ -1,5 +1,6 @@
 .DS_Store
 backup
+ui/src/backup
 ui/src/lib
 ui/src/turboexec.app
 ui/src/turboexec

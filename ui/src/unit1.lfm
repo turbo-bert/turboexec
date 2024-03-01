@@ -3,10 +3,11 @@ object Form1: TForm1
   Height = 488
   Top = 385
   Width = 826
-  Caption = 'Form1'
-  Menu = MainMenu1
+  Caption = 'TurboEXEC'
+  Menu = main_menu
+  Position = poScreenCenter
   LCLVersion = '3.0.0.3'
-  object MainMenu1: TMainMenu
+  object main_menu: TMainMenu
     Left = 32
     Top = 24
     object menu_start: TMenuItem
